@@ -1,0 +1,90 @@
+
+Showing Recent Errors Only
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Komatsu (in target 'Komatsu' from project 'Komatsu')
+
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/seenpeep/Desktop/Komatsu/Komatsu/ContentView.swift /Users/seenpeep/Desktop/Komatsu/Komatsu/KomatsuApp.swift /Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-ios26.4 -module-can-import-version DeveloperToolsSupport 23.40.26 23.40.26 -module-can-import-version SwiftUI 7.4.27.1 7.4.27 -module-can-import-version UIKit 9126.4.27.1 9126.4.27 -disable-cross-import-overlay-search -swift-module-cross-import RealityKit /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk/System/Library/Frameworks/RealityKit.framework/Modules/RealityKit.swiftcrossimport/SwiftUI.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -I /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Products/Debug-iphoneos -F /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Products/Debug-iphoneos -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -swift-version 5 -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu_const_extract_protocols.json -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -default-isolation\=MainActor -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/seenpeep/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/seenpeep/Desktop/Komatsu -enable-anonymous-context-mangled-names -file-compilation-dir /Users/seenpeep/Desktop/Komatsu -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/seenpeep/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E252-68a138bb55de9ba35ce6c8c40d12849e.sdkstatcache -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Komatsu-generated-files.hmap -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Komatsu-own-target-headers.hmap -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Komatsu-all-target-headers.hmap -Xcc -iquote -Xcc /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Komatsu-project-headers.hmap -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Products/Debug-iphoneos/include -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/DerivedSources-normal/arm64 -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/DerivedSources/arm64 -Xcc -I/Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name Komatsu -frontend-parseable-output -disable-clang-spi -clang-target arm64-apple-ios26.4 -target-sdk-version 26.4 -target-sdk-name iphoneos26.4 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu.swiftdoc -emit-module-source-info-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu.swiftsourceinfo -emit-objc-header-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu-Swift.h -serialize-diagnostics-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu-primary-emit-module.dia -emit-dependencies-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu-primary-emit-module.d -o /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu.swiftmodule -emit-abi-descriptor-path /Users/seenpeep/Library/Developer/Xcode/DerivedData/Komatsu-fzepdstctfivvpgqfhljmrdfofgx/Build/Intermediates.noindex/Komatsu.build/Debug-iphoneos/Komatsu.build/Objects-normal/arm64/Komatsu.abi.json
+
+EmitSwiftModule normal arm64 (in target 'Komatsu' from project 'Komatsu')
+    cd /Users/seenpeep/Desktop/Komatsu
+    
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:14:7: error: type 'LiDARManager' does not conform to protocol 'ObservableObject'
+class LiDARManager: NSObject, ObservableObject, ARSessionDelegate {
+      ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:14:7: note: add stubs for conformance
+class LiDARManager: NSObject, ObservableObject, ARSessionDelegate {
+      ^
+Combine.ObservableObject.objectWillChange:2:5: note: protocol requires property 'objectWillChange' with type 'Self.ObjectWillChangePublisher'
+var objectWillChange: Self.ObjectWillChangePublisher { get }}
+    ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:18:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var pointCount: Int = 0
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:19:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var isScanning: Bool = false
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:20:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var exportedFileURL: URL? = nil
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:21:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var scanQuality: ScanQuality = .none
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:22:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var scanDuration: TimeInterval = 0
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:23:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var estimatedCoverage: Float = 0  // 0-1
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:24:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var savedScans: [SavedScan] = []
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:25:6: error: initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+    @Published var statusMessage: String = ""
+     ^
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:13:1: note: add import of module 'Combine'
+
+^
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:14:7: Type 'LiDARManager' does not conform to protocol 'ObservableObject'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:18:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:19:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:20:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:21:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:22:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:23:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:24:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+/Users/seenpeep/Desktop/Komatsu/Komatsu/LiDARManager.swift:25:6: Initializer 'init(wrappedValue:)' is not available due to missing import of defining module 'Combine'
+
+
+
+Build failed    10/5/2569 BE, 14:44    4.4 seconds
