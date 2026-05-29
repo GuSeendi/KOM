@@ -64,8 +64,6 @@
 				852A73CD2FAAFDE2002920DD /* Komatsu */,
 			);
 			name = Komatsu;
-			packageProductDependencies = (
-			);
 			productName = Komatsu;
 			productReference = 852A73CB2FAAFDE2002920DD /* Komatsu.app */;
 			productType = "com.apple.product-type.application";

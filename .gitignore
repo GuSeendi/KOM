@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+*.moved-aside
+*.hmap
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+Komatsu.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+*.log
+Building*.txt
+
+# Pipeline outputs (large binary / generated)
+*.ply
+bucket_*.jpg
+bucket_*.meta.json
+bucket_*.mask.png
+bucket_mesh.ply
+
+# IDE
+.vscode/
+.idea/
+
+# Microsoft Office lock files
+~$*
+
+# Claude Code session memory (personal/local)
+.claude/projects/
+.claude/todos/
+
+# Documents and papers (large binaries, not source code)
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+Paper/
+proposal letter/

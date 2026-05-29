@@ -1,0 +1,6 @@
+{
+  "MLModelCreatorDefinedKey" : {
+    "IoU threshold" : "0.7",
+    "Confidence threshold" : "0.25"
+  }
+}
